@@ -77,15 +77,10 @@ public class NewItemFragment extends Fragment {
         PendingIntent pIntent = PendingIntent.getActivity(getActivity()
                 , (int) System.currentTimeMillis(), intent, 0);
 
-        // Build notification
-        // Actions are just fake
         Notification noti = new Notification.Builder(getActivity())
-                .setContentTitle("New Item Added!!")
-                .setContentText("Subject").setSmallIcon(R.drawable.icon)
-                .setContentIntent(pIntent)
-                .addAction(R.drawable.icon, "Call", pIntent)
-                .addAction(R.drawable.icon, "More", pIntent)
-                .addAction(R.drawable.icon, "And more", pIntent).build();
+                .setContentTitle(getActivity().getResources().getString(R.string.notif_new_item_details))
+                .setContentText(getActivity().getResources().getString(R.string.notif_new_item_details_content)).setSmallIcon(R.drawable.icon)
+                .setContentIntent(pIntent).build();
 
 
         NotificationManager notificationManager = (NotificationManager) getActivity().getSystemService(NOTIFICATION_SERVICE);

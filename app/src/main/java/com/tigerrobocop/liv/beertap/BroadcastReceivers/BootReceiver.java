@@ -28,7 +28,7 @@ public class BootReceiver extends BroadcastReceiver {
 
         Notification noti = new Notification.Builder(context)
                 .setContentTitle(context.getResources().getString(R.string.notif_add_new))
-                .setContentText("Subject").setSmallIcon(R.drawable.icon)
+                .setContentText(context.getResources().getString(R.string.notif_add_new_content)).setSmallIcon(R.drawable.icon)
                 .setContentIntent(pIntent).build();
 
 
