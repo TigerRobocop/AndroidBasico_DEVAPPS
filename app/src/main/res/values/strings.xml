@@ -7,6 +7,12 @@
     <string name="hint_search_by_brand">Search by brand</string>
 
 
+
+    <string name="new_item_title">Item</string>
+    <string name="new_item_description">Description</string>
+    <string name="btn_submit_newItem">Submit</string>
+
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -98,7 +104,7 @@
     </string>
     <string name="action_settings">Settings</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_details">DetailsActivity</string>
+    <string name="notif_add_new">Add new items!</string>
 </resources>

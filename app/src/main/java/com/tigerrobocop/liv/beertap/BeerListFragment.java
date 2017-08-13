@@ -40,15 +40,12 @@ public class BeerListFragment extends ListFragment {
 
         mListBeer = ((BeerApp)getActivity().getApplication()).getBeers();
 
-        /*
         Intent intent = getActivity().getIntent();
         Beer item = (Beer)intent.getSerializableExtra(NewItemActivity.EXTRA_NEWITEM);
 
         if (item != null) {
-            Beer it = (Beer) bundle.getSerializable(NewItemFragment.EXTRA_NEWITEM);
             mListBeer.add(item);
         }
-        */
 
         clearSearch();
     }

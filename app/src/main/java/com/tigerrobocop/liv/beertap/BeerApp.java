@@ -29,16 +29,15 @@ public class BeerApp extends Application {
 
 
         result.add(new Beer(1, "IPA", "Capunga", R.integer.local
-                , "Recife - PE", R.drawable.logo_capunga,"http://www.capunga.com/"));
+                , "Recife - PE", R.mipmap.logo_capunga,"http://www.capunga.com/"));
 
-        result.add(new Beer(2, "Lager", "Debron", R.integer.local
-                , "Jabooatão dos Guararapes - PE", R.drawable.logo_debron, "https://www.facebook.com/DeBronBier/"));
+        result.add(new Beer(2, "Lager", "DeBron", R.integer.local
+             , "Jabooatão dos Guararapes - PE", R.mipmap.logo_debron, "https://www.facebook.com/DeBronBier/"));
 
         result.add(new Beer(3, "IPA", "Ekaut", R.integer.local
-                , "Recife - PE", R.drawable.logo_ekaut, "http://ekaut.com.br/"));
+                , "Recife - PE", R.mipmap.logo_ekaut, "http://ekaut.com.br/"));
 
-        result.add(new Beer(4, "Pilsen" ,"Indie Beer", R.integer.local
-                , "Recife - PE", R.drawable.logo_indie, "https://www.facebook.com/IBCA2016/"));
+        //result.add(new Beer(4, "Pilsen" ,"Indie Beer", R.integer.local, "Recife - PE", R.drawable.logo_indie, "https://www.facebook.com/IBCA2016/"));
 
         return result;
 
